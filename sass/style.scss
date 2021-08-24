@@ -44,12 +44,10 @@
   background-color: #f0f0f0;
   cursor: pointer;
 }
-
 .tm_icon_message {
   color: #767676;
   font-size: 25px;
 }
-
 .navBar {
   display: flex;
   flex-direction: row;
@@ -65,7 +63,6 @@
   padding-right: 10px;
   text-align: center;
 }
-
 .navBarHover {
   display: flex;
   flex-direction: row;
@@ -75,7 +72,6 @@
   width: 60px;
   border-radius: 40%;
 }
-
 .navBarHover:hover {
   background-color: #f0f0f0;
 }
@@ -97,11 +93,9 @@
   margin-left: 15px;
   margin-right: 15px;
 }
-
 .searchBarDesktop:hover {
   background-color: #e1e1e1;
 }
-
 .searchBarDesktop__input {
   background-color: transparent;
   border: none;
@@ -130,13 +124,11 @@ footer {
   top: 0px;
   padding: 6px 15px;
 }
-
 #searchBar input {
   width: 100%;
   background-color: #5f5f5f7a;
   border-radius: 10px;
 }
-
 #searchBar.hide {
   top: -45px;
 }
@@ -150,11 +142,9 @@ footer {
   justify-content: space-between;
   padding: 0 15px;
 }
-
 footer.hide {
   bottom: -45px;
 }
-
 footer .btn {
   display: flex;
   flex-flow: column;
@@ -162,16 +152,13 @@ footer .btn {
   align-items: center;
   padding: 5px;
 }
-
 footer .btn svg {
   width: 24px;
   height: 24px;
 }
-
 footer .btn svg path {
   fill: #5f5f5f;
 }
-
 footer .btn svg.pinterest path {
   fill: #e6001a;
 }
@@ -186,7 +173,7 @@ footer .btn svg.pinterest path {
     transition: all 1s ease;
     z-index: 1986;
   }
-
+  
   */
 body {
   font-family: "calibri";
@@ -209,6 +196,7 @@ body {
       justify-content: space-between;
   }
   */
+
 .column {
   display: grid;
   grid-template-columns: 1fr;
@@ -247,7 +235,7 @@ img:hover {
   }
 
   #searchBar,
-footer {
+  footer {
     display: flex;
     height: 45px;
     z-index: 1986;
@@ -261,5 +249,3 @@ footer {
     display: none;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
