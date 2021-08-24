@@ -1,8 +1,7 @@
 * {
   padding: 0;
-  margin: 0px;
+  margin: 0;
   box-sizing: border-box;
-  
 }
 
 .header {
@@ -18,10 +17,9 @@
   padding-left: 10px;
   width: 100%;
   z-index: 1986;
-
 }
 
-.header_icon{
+.header_icon {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -31,9 +29,9 @@
   border-radius: 100px;
 }
 
-.header_icon_p{
+.header_icon_p {
   font-size: 25px;
-  color: red;;
+  color: red;
   height: 45px;
   width: 45px;
   margin-top: 20px;
@@ -42,24 +40,22 @@
   align-items: center;
 }
 
-.header_icon:hover{
-  background-color:#f0f0f0;
+.header_icon:hover {
+  background-color: #f0f0f0;
   cursor: pointer;
 }
-.tm_icon_message{
-  color:#767676;
+.tm_icon_message {
+  color: #767676;
   font-size: 25px;
-
 }
-.navBar{
+.navBar {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-
 }
 
-.navBar_a{
+.navBar_a {
   text-decoration: none;
   color: #000;
   font-weight: bold;
@@ -67,7 +63,7 @@
   padding-right: 10px;
   text-align: center;
 }
-.navBarHover{
+.navBarHover {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -76,12 +72,12 @@
   width: 60px;
   border-radius: 40%;
 }
-.navBarHover:hover{
+.navBarHover:hover {
   background-color: #f0f0f0;
 }
 
 .iconoInput {
-  color:#767676;
+  color: #767676;
   font-size: 17px;
   position: absolute;
   left: 265px;
@@ -93,23 +89,23 @@
   height: 50px;
   width: 900px;
   border-radius: 20px;
-  border:0px solid ;
+  border: 0px solid;
   margin-left: 15px;
   margin-right: 15px;
 }
-.searchBarDesktop:hover{
+.searchBarDesktop:hover {
   background-color: #e1e1e1;
 }
-.searchBarDesktop__input{
-  background-color:transparent;
-  border:none;
-  color:#333;
-  font-size:16px;
-  font-weight:normal;
-  height:100%;
-  outline:none;
-  padding:0;
-  width:100%;
+.searchBarDesktop__input {
+  background-color: transparent;
+  border: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: normal;
+  height: 100%;
+  outline: none;
+  padding: 0;
+  width: 100%;
   padding-left: 40px;
   border-color: red;
 }
@@ -117,7 +113,7 @@
 #searchBar,
 footer {
   display: none;
-  transition: all 1s ease;
+  transition: all 0.5s ease;
 }
 
 #searchBar {
@@ -141,7 +137,7 @@ footer {
   position: fixed;
   bottom: 0px;
   background-color: white;
-  width: 100%;
+  width: 85%;
   border-top: 1px solid rgba(40, 40, 40, 0.4);
   justify-content: space-between;
   padding: 0 15px;
@@ -166,10 +162,6 @@ footer .btn svg path {
 footer .btn svg.pinterest path {
   fill: #e6001a;
 }
-
-
-
-
 
 /*
 #Segundario {
@@ -230,17 +222,31 @@ img:hover {
   #content {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 0fr;
+  }
+
+  .column {
+    font-size: 0;
+    text-align: center;
+  }
+
+  .element {
+    float: left;
   }
 
   #searchBar,
   footer {
-      display: flex;
-      height: 45px;
-      z-index: 1986;
-    }
+    display: flex;
+    height: 45px;
+    z-index: 1986;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding-right: 70px;
 
-  .header{
-    display: none;
+    border-radius: 90px;
   }
 
+  .header {
+    display: none;
+  }
 }
